@@ -1,15 +1,19 @@
 <template>
-  <h1>{{ name }}</h1>
+  <h1>{{name}}</h1>
 </template>
+
 <script lang="ts">
-import { defineComponent } from "vue";
-export default defineComponent({
-  setup() {
-    const name = "keavvy";
+  export default {
+   data() {
     return {
-      name,
-    };
-  },
-});
+      name:"vue"
+    }
+   }
+  }
+
 </script>
 
+<style scoped>
+
+
+</style>
