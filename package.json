@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install",
     "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.prod.js",
     "serve": "cross-env NODE_ENV=development webpack serve --config ./config/webpack.dev.js",
     "analyze": "webpack-bundle-analyzer --port 3000 ./dist/stats.json",
